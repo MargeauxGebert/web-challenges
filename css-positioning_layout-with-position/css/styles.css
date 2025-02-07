@@ -43,7 +43,7 @@ body {
  * document is scrolled.
  */
 .footer {
-  position: fixed;
+  position: sticky;
   bottom: 0px;
   height: 48px;
   color: #ffffff;
@@ -92,7 +92,7 @@ body {
 .goto-top {
   position: fixed;
   z-index: 2;
-  bottom: 10px;
+  bottom: 50px;
   right: 10px;
   text-decoration: none;
   color: #f9f9f9;
@@ -101,3 +101,5 @@ body {
   background-color: #ff4a11;
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
 }
+
+
