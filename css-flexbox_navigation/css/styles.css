@@ -26,6 +26,7 @@ ul {
 .navigation__menu {
   display: flex;
   justify-content: space-between;
+  
 }
 
 .navigation__link {
