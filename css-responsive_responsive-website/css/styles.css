@@ -185,7 +185,7 @@ body {
 
 .--desert {
   background-image: url("../img/desert.jpg");
-  background-size: cover;
+  background-size: auto;
 }
 
 .card-title {
@@ -238,10 +238,43 @@ body {
 /* Now it's your turn! Use media queries to partially overwrite our
 CSS based on conditions such as viewport width, etc. */
 
-/* Media Query Tablet */
-/* --- */
-/* Replace this comment with your media query. */
-/* --- */
+@media (min-width: 600px) {
+  /* .forest-intro {
+    display: flex;
+    justify-content: space-around;
+    gap: var(--gap);
+    margin: var(--gap);
+  } */
+
+.card-section {
+  flex-flow: row wrap;
+  gap: var(--gap);
+  justify-content: space-between;
+}
+.product-card  {
+width: 50vw;
+}
+.intro-text {
+  width: 50%;
+  flex-wrap: wrap;
+}
+.main-content {
+  padding: var(--gap);
+}
+}
+/* .--forest {
+    align-self: flex-start;
+    width: 50%;
+  }
+  .intro-text {
+    align-self: flex-end;
+    width: 50%;
+  }
+  .card-section .--forest .intro-text {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  } */
 
 /* Media Query Desktop */
 /* --- */
