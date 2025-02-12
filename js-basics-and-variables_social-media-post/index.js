@@ -10,7 +10,11 @@ console.clear();
 */
 
 // --v-- write your code here --v--
-
+const postTitle = "Margeaux the greatest!";
+const postText = "Nothing new, you already should know that.";
+let likesNumber = 665;
+const postCreator = "theawesomeManuel";
+const isReported = true;
 // --^-- write your code here --^--
 
 /*
@@ -18,5 +22,11 @@ console.clear();
 */
 
 // --v-- write your code here --v--
-
+console.log(postTitle);
+console.log(postText);
+console.log(likesNumber);
+console.log(postCreator);
+console.log(isReported);
+likesNumber = likesNumber + 1;
+console.log("my new likes", likesNumber);
 // --^-- write your code here --^--
