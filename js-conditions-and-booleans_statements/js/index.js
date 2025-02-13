@@ -5,22 +5,34 @@ const SUPER_SECRET_PASSWORD = "h4x0r1337";
 
 const receivedPassword = "password1234";
 
+if (receivedPassword === SUPER_SECRET_PASSWORD) {
+console.log("Welcome! You are logged in as Brunhilde1984.");
+} else {
+    console.log("Access denied!");
+}
+
 // Part 2: Even / Odd
 const number = 6;
 
-// Part 3: Hotdogs
-const numberOfHotdogs = 42;
+if (number === %2) {
+    console.log("even number");
+} else {
+    console.log("odd number");
+}
 
-// Part 4: Daytime
-const currentHour = 12;
+// // Part 3: Hotdogs
+// const numberOfHotdogs = 42;
 
-const statement = "";
+// // Part 4: Daytime
+// const currentHour = 12;
 
-console.log(statement);
+// const statement = "";
 
-// Part 5: Greeting
-const userName = "Archibald";
+// console.log(statement);
 
-const greeting = "Hello " + "//enter your code here" + "!";
+// // Part 5: Greeting
+// const userName = "Archibald";
 
-console.log(greeting);
+// const greeting = "Hello " + "//enter your code here" + "!";
+
+// console.log(greeting);
