@@ -12,16 +12,16 @@ console.log("Welcome! You are logged in as Brunhilde1984.");
 }
 
 // Part 2: Even / Odd
-const number = 6;
+const number = 13;
 
-if (number === %2) {
+if (number % 2 === 0) {
     console.log("even number");
 } else {
     console.log("odd number");
 }
 
-// // Part 3: Hotdogs
-// const numberOfHotdogs = 42;
+// Part 3: Hotdogs
+const numberOfHotdogs = 42;
 
 // // Part 4: Daytime
 // const currentHour = 12;
