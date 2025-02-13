@@ -40,9 +40,16 @@ const statement = currentHour < 17 ? "Still need to learn..." : "Partytime!!!";
 
 console.log(statement);
 
-// // Part 5: Greeting
-// const userName = "Archibald";
+// Part 5: Greeting
+const userName = "Felix";
+const coachName = "Felix";
 
-// const greeting = "Hello " + "//enter your code here" + "!";
+// const greetingName = userName === coachName ? "Coach" : userName;
+
+// const greeting = "Hello " + greetingName + "!";
 
 // console.log(greeting);
+
+const greeting = "Hello " + (userName === coachName ? "Coach" : userName) + "!";
+
+console.log(greeting);
