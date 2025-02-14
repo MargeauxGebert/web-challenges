@@ -50,6 +50,12 @@ function isOddAndSmall(number) {
 }
 console.log(`It's ${isOddAndSmall(5)}!`);
 
-const add3 = (a, b, c) => a + b + c;
+function add3(a, b, c) {
+  return a + b + c;
+}
+console.log("The sum is: " + add3(3, 6, 9));
 
-const repeat10 = (string) => string.repeat(10);
+function repeat10(string) {
+  return string.repeat(10);
+}
+console.log(repeat10("I mustn't tell lies. "));
