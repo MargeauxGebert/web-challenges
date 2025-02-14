@@ -63,9 +63,9 @@ logBookData();
 // --v-- write your code here --v--
 function logBookData() {
   console.log(`Title: ${bookTitle}`);
-console.log(`Author: ${bookAuthor}`);
-console.log(`Rating: ${bookRating}`);
-console.log(`Sales: ${bookNumberOfCopies}`);
-return logBookData;
+  console.log(`Author: ${bookAuthor}`);
+  console.log(`Rating: ${bookRating}`);
+  console.log(`Sales: ${bookNumberOfCopies}`);
+  return logBookData;
 }
 // --^-- write your code here --^--
