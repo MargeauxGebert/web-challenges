@@ -19,9 +19,7 @@ console.log(nestedArray[3][1]);
 
 const numbers = [20, 10, 50];
 
-const firstNumber = 33;
-
-numbers[0] = firstNumber;
+const firstNumber = numbers[0];
 
 console.log(numbers);
 
