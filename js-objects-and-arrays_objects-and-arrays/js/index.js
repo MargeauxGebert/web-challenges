@@ -62,17 +62,20 @@ console.log(homersOtherFriends);
 // EXERCISE 3
 // Set the variable `ageOfThirdPerson` to the age of the third person.
 
-const ageOfThirdPerson = "change me";
+const ageOfThirdPerson = people[2].age;
+console.log(ageOfThirdPerson);
 
 // EXERCISE 4
 // Set the variable `mothersNameOfSecondPerson` to the mother's name of the second person.
 
-const mothersNameOfSecondPerson = "change me";
+const mothersNameOfSecondPerson = people[1].parents.mothersName;
+console.log(mothersNameOfSecondPerson);
 
 // EXERCISE 5
 // Set the variable `animalTypeOfLisasPet` to the type of animal that Lisa has as a pet.
 
-const animalTypeOfLisasPet = "change me";
+const animalTypeOfLisasPet = people[3].pet.animal;
+console.log(animalTypeOfLisasPet);
 
 export {
   nameOfFirstPerson,
