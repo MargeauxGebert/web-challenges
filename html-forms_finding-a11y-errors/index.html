@@ -15,7 +15,7 @@
       Please let us know how we can support you with a11y issues.
     </p>
 
-    <form for="title" aria-labelledby="title">
+    <form aria-labelledby="title">
       <fieldset aria-describedby="description">
         <legend>Enter your information</legend>
 
@@ -23,17 +23,13 @@
         <input id="name-Input" type="text" />
 
         <label for="age-Input">Age:</label>
-        <input id="age-Input" type="text" />
+        <input id="age-Input" type="number" min="0" />
 
         <label for="color-Input">Color you cannot see:</label>
         <input id="color-Input" type="color" />
         <label for="textarea">Leave us a message...</label>
-        <textarea
-          id="textarea"
-          rows="7"
-          aria-label="Leave us a message..."
-        ></textarea>
-        <button type="submit" aria-label="submit-button">Submit</button>
+        <textarea id="textarea" rows="7"></textarea>
+        <button type="submit">Submit</button>
       </fieldset>
     </form>
   </body>
