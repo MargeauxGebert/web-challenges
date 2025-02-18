@@ -16,7 +16,12 @@ form.addEventListener("submit", (event) => {
   event.preventDefault();
 
   // --v-- write your code here --v--
-
+  if (tosCheckbox.ckecked === false) {
+    showTosError();
+    return;
+  } else {
+    hideTosError();
+  }
   // --^-- write your code here --^--
 
   // eslint-disable-next-line no-alert
