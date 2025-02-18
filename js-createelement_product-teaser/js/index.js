@@ -47,5 +47,5 @@ newProduct.append(newProductFooter);
 newProductFooter.append(newProductBuyButton);
 
 newProductBuyButton.addEventListener("click", () => {
-  console.log(`${name} ${price}`);
+  console.log(`${name}-----------${price}`);
 });
