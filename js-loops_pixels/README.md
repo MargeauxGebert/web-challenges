@@ -1,6 +1,6 @@
 # JS Loops: Pixels
 
-In this challenge, we’ll add another dimension and draw pixels using a “2D” array.
+In this challenge, we will add another dimension and draw pixels using a “2D” array.
 
 ## Tasks
 
