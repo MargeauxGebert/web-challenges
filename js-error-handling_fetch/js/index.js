@@ -7,7 +7,12 @@ const errorElement = document.querySelector("[data-js='error']");
 async function fetchUserData(url) {
   try {
     const response = await fetch(url);
-
+    const contentType = response.headers.get("content-type");
+    if (!response.ok) {
+      throw new Error(response.status + " User not found");
+    } else if (!contentType.includes("application/json")) {
+      throw new Error("Should be a .json, but received: " + contentType);
+    }
     return await response.json();
   } catch (error) {
     return { error: error.message };
