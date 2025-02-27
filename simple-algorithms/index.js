@@ -28,10 +28,16 @@ console.log(findLongestWord(words));
 // Calculate the sum
 
 const numbers = [6, 12, 1, 18, 13, 16, 2, 1, 8, 10];
+const numbers2 = [9, 22, 38, 51];
 
 function sumNumbers(numbers) {
-  // TODO:
+ const sum =  numbers.map((number) => number).reduce((a, b) => a + b);
+return sum;
 }
+console.log(sumNumbers(numbers2));
+// take each number from the array
+// add them all together 
+// return the sum
 
 // Calculate the average length of the words
 
