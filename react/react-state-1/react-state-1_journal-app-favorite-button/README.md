@@ -1,4 +1,4 @@
-# React State 1: Journal App with Favorite Button State
+ # React State 1: Journal App with Favorite Button State
 
 In this challenge, you will begin building a journal app, which will be expanded in future sessions. In this part, you’ll implement a favorite button to mark entries as favorites.
 
