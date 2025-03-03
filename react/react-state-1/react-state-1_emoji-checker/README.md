@@ -3,9 +3,9 @@
 In the `./src/App.jsx` file, you will find the basic structure for an emoji passcode checker.
 
 - The `validCode` variable defines the passcode as a sequence of three emojis.
-- Each button click should add one emoji to the input code. 
+- Each button click should add one emoji to the input code.
 - If the entered code matches the passcode, it should be validated as correct.
-- The reset button should clear the input code, allowing you to try again. 
+- The reset button should clear the input code, allowing you to try again.
 
 > 💡 At the bottom of the `App` function, there is a line that conditionally renders a `<p>` element when the input code `inputCode` matches the valid passcode `validCode`.
 
