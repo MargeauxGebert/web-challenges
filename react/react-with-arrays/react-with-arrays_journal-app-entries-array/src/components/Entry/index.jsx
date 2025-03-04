@@ -1,9 +1,9 @@
 import FavoriteButton from "../FavoriteButton";
 import "./Entry.css";
 
-export default function Entry({ motto, notes, date }) {
+export default function Entry({ motto, notes, date, id }) {
   return (
-    <article className="entry">
+    <article className="entry" key={id}>
       <time className="entry__date">{date}</time>
       <div className="entry__content">
         <div className="entry__motto-container">
