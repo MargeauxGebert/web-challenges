@@ -5,22 +5,22 @@ export default function App() {
     {
       id: 1,
       name: "Mango 🥭",
-      color: "red-yellow",
+      color: "orange",
     },
     {
       id: 2,
       name: "Pineapple 🍍",
-      color: "yellow-green",
+      color: "linear-gradient(90deg, rgba(255,252,0,1) 0%, rgba(255,252,0,1) 47%, rgba(65,255,0,1) 79%, rgba(65,255,0,1) 100%)",
     },
     {
       id: 3,
       name: "Blueberry 🫐",
-      color: "blue",
+      color: "cornflowerblue",
     },
     {
       id: 4,
       name: "Peach 🍑",
-      color: "peachy",
+      color: "coral",
     },
     {
       id: 5,
@@ -31,7 +31,8 @@ export default function App() {
 
   return (
     <div className="app">
-      <Card name="🍌 banana" />
+      {fruits.map((fruit) => 
+      <Card key={fruit.id} name={fruit.name} color={fruit.color}/>)}
     </div>
   );
 }
