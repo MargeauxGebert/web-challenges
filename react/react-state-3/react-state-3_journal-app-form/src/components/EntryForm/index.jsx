@@ -10,6 +10,7 @@ export default function EntryForm({ onAddEntry }) {
     const newObject = { motto: data.motto, notes: data.notes };
     onAddEntry(newObject);
     console.log(newObject);
+    event.target.reset();
   }
 
   return (
