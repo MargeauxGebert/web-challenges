@@ -31,12 +31,12 @@ const numbers = [6, 12, 1, 18, 13, 16, 2, 1, 8, 10];
 const numbers2 = [9, 22, 38, 51];
 
 function sumNumbers(numbers) {
- const sum =  numbers.map((number) => number).reduce((a, b) => a + b);
-return sum;
+  const sum = numbers.reduce((a, b) => a + b);
+  return sum;
 }
 console.log(sumNumbers(numbers2));
 // take each number from the array
-// add them all together 
+// add them all together
 // return the sum
 
 // Calculate the average length of the words
@@ -55,9 +55,13 @@ const words2 = [
 ];
 
 function averageWordLength(words) {
-  // TODO:
+  let totalLength = 0;
+  words.forEach((word) => {
+    totalLength += word.length;
+  });
+  return totalLength / words.length;
 }
-
+console.log(averageWordLength(words2));
 // Unique arrays - return an array without duplicates
 
 const words3 = [
@@ -75,9 +79,15 @@ const words3 = [
 ];
 
 function uniquifyArray(words) {
-  // TODO:
+  let newArray = [];
+  words.filter((word) => {
+    if (newArray.indexOf(word) === -1) {
+      newArray.push(word);
+    }
+  });
+  return newArray;
 }
-
+console.log(uniquifyArray(words3));
 // Find elements
 const wordsFind = [
   "machine",
