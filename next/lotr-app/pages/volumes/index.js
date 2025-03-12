@@ -4,6 +4,7 @@ import { introduction } from "../lib/data";
 export default function OverviewPage() {
   return (
     <>
+    <Link href="/">Home</Link>
       <h1>The Lord of the Rings</h1>
       <p>{introduction}</p>
       <h2>All Volumes</h2>
