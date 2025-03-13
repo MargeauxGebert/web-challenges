@@ -18,6 +18,7 @@ export const GlobalStyle = createGlobalStyle`
   --color-earth: #282828;
   --color-clouds: #f1f1f1;
   --color-smoke: #d4d1cd;
+  --color-hover: rgb(202, 76,35);
 
   /* Font styles */
   --font-family: ${lora.style.fontFamily},serif;
@@ -25,9 +26,9 @@ export const GlobalStyle = createGlobalStyle`
     use like:
     font: var(--font-body);
   */
-  --font-headline-1: normal 700 44px/48px var(--font-family);
-  --font-headline-2: normal 700 32px/41px var(--font-family);
-  --font-title: normal 700 16px/20px var(--font-family);
+  --font-headline-1: normal 600 44px/48px var(--font-family);
+  --font-headline-2: normal 600 32px/41px var(--font-family);
+  --font-title: normal 600 16px/20px var(--font-family);
   --font-caption: normal 500 12px/15px var(--font-family);
   --font-caption--italic: italic 400 12px/15px var(--font-family);
   --font-body: normal 400 16px/20px var(--font-family);
@@ -49,5 +50,7 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     font-family: var(--font-family);
+    color: var(--color-earth);
+    margin: 0                                          ¥;
   }
 `;
