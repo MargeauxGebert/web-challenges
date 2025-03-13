@@ -4,6 +4,8 @@ import styled from "styled-components";
 import Image from "next/image";
 
 export default function Volumes() {
+
+  
   return (
     <Wrapper>
       <VolumesTitle>
@@ -72,7 +74,7 @@ const VolumesListLink = styled(Link)`
   gap: 0.5rem;
   text-decoration: none;
   font: var(--font-caption);
-  color: var(--color-earth);
+  color: unset;
 `;
 
 const BookCover = styled(Image)`

@@ -24,7 +24,7 @@ export default function VolumeDetail() {
   const { title, description, cover, books, color } = volume;
 
   return (
-    <Wrapper>
+    <Wrapper  >
       <StyledLink href="/volumes">
         <ChevronLeft />
         All Volumes
@@ -71,13 +71,14 @@ export default function VolumeDetail() {
 
 const Wrapper = styled.main`
   padding: 1.5rem;
+  color: ${({$dark}) => $dark ? "var(--color-clouds)" : "var(--color-earth)"};
 `;
 
 const StyledLink = styled(Link)`
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: var(--color-earth);
+  color: unset;
   &:hover {
     color: var(--color-hover);
   }
