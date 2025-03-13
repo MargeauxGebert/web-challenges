@@ -6,7 +6,7 @@ In this challenge you will finally style the LotR-Fanpage with the help of `styl
 
 ## Tasks
 
-Use `styled-components` to create the design you can find in the [design files for the LotR-Fanpage](./README.md#resources).
+Use `styled-components` to create the design you can find in the [design files for the LotR-Fanpage](./README.md#resources). 
 
 Before you start, follow the instructions to add all necessary files to your project.
 
