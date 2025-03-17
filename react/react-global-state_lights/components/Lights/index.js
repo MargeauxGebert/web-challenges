@@ -11,12 +11,12 @@ const StyledLights = styled.ul`
   justify-content: center;
 `;
 
-export default function Lights({ rooms, onToggle, isOn }) {
+export default function Lights({ lights, onToggleLights }) {
   return (
     <StyledLights>
-      {rooms.map((room) => (
-        <li key={room.id}>
-          <Light name={room.name} isOn={isOn} onToggle={onToggle} />
+      {lights.map((light) => (
+        <li key={light.id}>
+          <Light name={light.name}  isOn={light.isOn} onToggleLights={ () => onToggleLights(light.id)} />
         </li>
       ))}
     </StyledLights>

@@ -1,13 +1,11 @@
 import { useState } from "react";
 import { LightButton, Icon, Text, Name, State } from "./Light.styled";
 
-export default function Light({ name, isOn, onToggle }) {
+export default function Light({ name, isOn, onToggleLights }) {
   return (
     <LightButton
       type="button"
-      onClick={() => {
-        onToggle();
-      }}
+      onClick={onToggleLights}
       $isOn={isOn}
     >
       <Icon $isOn={isOn}>💡</Icon>
